@@ -9,6 +9,7 @@ import cutImage3 from './assets/cut-3.jpg';
 import cutImage4 from './assets/cut-4.jpg';
 import cutImage5 from './assets/cut-5.jpg';
 import cutImage6 from './assets/cut-6.jpg';
+import cutImage7 from './assets/hero-ll.jpg';
 
 function App() {
   const services = [
@@ -87,18 +88,18 @@ function App() {
           loop 
           muted 
           playsInline 
-          className="absolute z-0 w-auto min-w-full min-h-full max-w-none object-cover md:hidden opacity-40"
+          className="absolute z-0 w-auto min-w-full min-h-full max-w-none object-cover md:hidden opacity-90"
         >
           <source src={heroVideo} type="video/mp4" />
         </video>
 
         <img 
-          src={cutImage1} 
+          src={cutImage7} 
           alt="The 4th Street Barbershop Premium Grooming" 
-          className="absolute z-0 w-full h-full object-cover hidden md:block opacity-35"
+          className="absolute z-0 w-full h-full object-cover hidden md:block opacity-85"
         />
 
-        <div className="hero-overlay bg-gradient-to-t from-black via-black/80 to-transparent relative z-10"></div>
+        <div className="hero-overlay  relative z-10"></div>
         
         <div className="hero-content text-center py-20 px-4 relative z-20">
           <div className="max-w-3xl">
