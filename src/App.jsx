@@ -253,59 +253,59 @@ function App() {
         </div>
       </section>
 
-      {/* --- CONTACT & LOCATION INFO --- */}
-      <section id="contact" className="py-28 px-6 max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          <div className="flex flex-col justify-center">
-            <span className="text-[11px] font-semibold uppercase tracking-widest text-amber-500 block mb-2">The Atelier</span>
-            <h3 style={luxuryStyles.fontFamily.serif} className="text-4xl font-light uppercase tracking-wide text-white mb-8">Location & Hours</h3>
-            
-            <div className="space-y-8 font-light">
-              <div>
-                <h4 className="text-zinc-500 text-[10px] uppercase tracking-widest mb-1">The Destination</h4>
-                <p style={luxuryStyles.fontFamily.serif} className="text-2xl text-white">The 4th Street @Kinoo Old Petrol Station</p>
-                <p className="text-xs text-zinc-500 tracking-wide mt-0.5">Kinoo, Central Province, Kenya</p>
-              </div>
+     {/* --- CONTACT & LOCATION INFO --- */}
+<section id="contact" className="py-28 px-6 max-w-6xl mx-auto">
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+    <div className="flex flex-col justify-center">
+      <span className="text-[11px] font-semibold uppercase tracking-widest text-amber-500 block mb-2">The Atelier</span>
+      <h3 style={luxuryStyles.fontFamily.serif} className="text-4xl font-light uppercase tracking-wide text-white mb-8">Location & Hours</h3>
+      
+      <div className="space-y-8 font-light">
+        <div>
+          <h4 className="text-zinc-500 text-[10px] uppercase tracking-widest mb-1">The Destination</h4>
+          <p style={luxuryStyles.fontFamily.serif} className="text-2xl text-white">The 4th Street @Kinoo Old Petrol Station</p>
+          <p className="text-xs text-zinc-500 tracking-wide mt-0.5">Kinoo, Central Province, Kenya</p>
+        </div>
 
-              <div>
-                <h4 className="text-zinc-500 text-[10px] uppercase tracking-widest mb-2">Availability Matrix</h4>
-                <div className="grid grid-cols-2 gap-y-1.5 text-xs tracking-wide max-w-xs text-zinc-400">
-                  <span>Monday — Saturday</span>
-                  <span className="text-white text-right">8:00 AM — 8:00 PM</span>
-                  <span>Sunday</span>
-                  <span className="text-white text-right">10:00 AM — 6:00 PM</span>
-                </div>
-              </div>
-
-              <div className="pt-2">
-                <h4 className="text-zinc-500 text-[10px] uppercase tracking-widest mb-1">Direct Hotline</h4>
-                <a href="tel:0743454537" style={luxuryStyles.fontFamily.serif} className="text-3xl text-white hover:text-amber-500 transition duration-300">
-                  0743 454537
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-zinc-950 rounded-none border border-zinc-900 p-12 flex flex-col justify-center items-center min-h-[350px] text-center relative overflow-hidden">
-            <div className="absolute inset-0 opacity-5 bg-[radial-gradient(#f59e0b_1px,transparent_1px)] [background-size:24px_24px]"></div>
-            <div className="relative z-10">
-              <div className="text-amber-500/80 text-3xl mb-4 font-light">📍</div>
-              <h4 style={luxuryStyles.fontFamily.serif} className="text-2xl text-white font-light tracking-wide mb-3">Kinoo Old Petrol Station</h4>
-              <p className="text-zinc-500 text-xs max-w-xs mx-auto mb-8 leading-relaxed font-light">
-                Conveniently situated along the main arterial route in Kinoo. Located adjacent to the historic station landmark.
-              </p>
-              <a 
-                href="https://maps.google.com" 
-                target="_blank" 
-                rel="noreferrer" 
-                className="btn bg-transparent hover:bg-white text-zinc-400 hover:text-black border border-zinc-800 hover:border-white rounded-none btn-sm uppercase tracking-widest text-[10px] px-6 h-10 transition-all"
-              >
-                Open Navigation
-              </a>
-            </div>
+        <div>
+          <h4 className="text-zinc-500 text-[10px] uppercase tracking-widest mb-2">Availability Matrix</h4>
+          <div className="grid grid-cols-2 gap-y-1.5 text-xs tracking-wide max-w-xs text-zinc-400">
+            <span>Monday — Saturday</span>
+            <span className="text-white text-right">8:00 AM — 8:00 PM</span>
+            <span>Sunday</span>
+            <span className="text-white text-right">10:00 AM — 6:00 PM</span>
           </div>
         </div>
-      </section>
+
+        <div className="pt-2">
+          <h4 className="text-zinc-500 text-[10px] uppercase tracking-widest mb-1">Direct Hotline</h4>
+          <a href="tel:0743454537" style={luxuryStyles.fontFamily.serif} className="text-3xl text-white hover:text-amber-500 transition duration-300">
+            0743 454537
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div className="bg-zinc-950 rounded-none border border-zinc-900 p-12 flex flex-col justify-center items-center min-h-[350px] text-center relative overflow-hidden">
+      <div className="absolute inset-0 opacity-5 bg-[radial-gradient(#f59e0b_1px,transparent_1px)] [background-size:24px_24px]"></div>
+      <div className="relative z-10">
+        <div className="text-amber-500/80 text-3xl mb-4 font-light">📍</div>
+        <h4 style={luxuryStyles.fontFamily.serif} className="text-2xl text-white font-light tracking-wide mb-3">Kinoo Old Petrol Station</h4>
+        <p className="text-zinc-500 text-xs max-w-xs mx-auto mb-8 leading-relaxed font-light">
+          Conveniently situated along the main arterial route in Kinoo. Located adjacent to the historic station landmark at Headworld Links Ltd.
+        </p>
+        <a 
+          href="https://www.google.com/maps/place/Headworld+Links+Ltd/@-1.2538832,36.6731418,14.25z/data=!4m10!1m2!2m1!1sHeadworld+Links+Ltd!3m6!1s0x182f1ed3689e50af:0x5e6e2eef1175b9a9!8m2!3d-1.2550436!4d36.6941337!15sChNIZWFkd29ybGQgTGlua3MgTHRk4AEA!16s%2Fg%2F11rhp7h36y?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D" 
+          target="_blank" 
+          rel="noreferrer" 
+          className="btn bg-transparent hover:bg-white text-zinc-400 hover:text-black border border-zinc-800 hover:border-white rounded-none btn-sm uppercase tracking-widest text-[10px] px-6 h-10 transition-all"
+        >
+          Open Navigation
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* --- FOOTER --- */}
       <footer className="footer footer-center p-12 bg-zinc-950 text-zinc-500 border-t border-zinc-900 text-[11px] tracking-wide font-light">
